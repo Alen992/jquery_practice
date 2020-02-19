@@ -39,3 +39,28 @@ img {
     font-size: 20px;
     margin: 20px auto;
 }
+
+.keypress {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.press {
+    border-radius: 3px;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+}
+
+.press:focus {
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+}

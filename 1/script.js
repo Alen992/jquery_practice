@@ -39,4 +39,16 @@ $(document).ready(function () {
     $('.remove').click(function() {
         $('.puppers').toggleClass('red');
     })
+
+    $('.press').on('keypress', function() {
+        $('p').hide();
+    })
+
+    $('.show').click(function() {
+        $('.puppers2 img').show();
+    })
+
+    $('.hide').click(function() {
+        $('.puppers2 img').hide();
+    })
 }) 
