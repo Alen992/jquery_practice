@@ -51,4 +51,15 @@ $(document).ready(function () {
     $('.hide').click(function() {
         $('.puppers2 img').hide();
     })
+
+    $('.bye').click(function() {
+        $('.img1').fadeOut('slow');
+        $('.img2').fadeOut('fast');
+        $('.img3').fadeOut('slow');
+    })
+    $('.hello').click(function() {
+        $('.img1').fadeIn('slow');
+        $('.img2').fadeIn(3000);
+        $('.img3').fadeIn('slow');
+    })
 }) 
