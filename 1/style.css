@@ -102,6 +102,10 @@ img {
     background-color: blueviolet;
 }
 
+.dropable {
+    height: 600px;
+}
+
 .drop {
     width: 400px;
     height: 400px;
@@ -111,4 +115,12 @@ img {
 
 .ui-state-hightlight {
     background-color: yellow;
+}
+
+.datepicker {
+    height: 400px;
+}
+
+.datepick {
+    margin-top: 16px;
 }
