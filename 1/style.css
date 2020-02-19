@@ -101,3 +101,10 @@ img {
     height: 60px;
     background-color: blueviolet;
 }
+
+.drop {
+    width: 400px;
+    height: 400px;
+    float: right;
+    background-color: green;
+}
