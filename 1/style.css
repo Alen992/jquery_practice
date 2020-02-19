@@ -82,3 +82,16 @@ img {
     border-radius: 3px;
     padding: 10px 20px;
 }
+
+.slide {
+    height: 700px;
+}
+
+.div1 {
+    width: 90px;
+    height: 60px;
+    background-color: pink;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

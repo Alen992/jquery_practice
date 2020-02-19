@@ -58,8 +58,20 @@ $(document).ready(function () {
         $('.img3').fadeOut('slow');
     })
     $('.hello').click(function() {
-        $('.img1').fadeIn('slow');
+        $('.img1').fadeIn(2000);
         $('.img2').fadeIn(3000);
-        $('.img3').fadeIn('slow');
+        $('.img3').fadeIn(4000);
+    })
+
+    $('.slideBtn--up').click(function() {
+        $('.div1').slideUp('fast');
+    })
+
+    $('.slideBtn--down').click(function() {
+        $('.div1').slideDown('slow');
+    })
+
+    $('.slideBtn--toggle').click(function() {
+        $('.div1').slideToggle(2000);
     })
 }) 
