@@ -83,10 +83,6 @@ img {
     padding: 10px 20px;
 }
 
-.slide {
-    height: 700px;
-}
-
 .div1 {
     width: 90px;
     height: 60px;
@@ -94,4 +90,14 @@ img {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.dragable {
+    height: 500px;
+}
+
+.drag {
+    width: 150px;
+    height: 60px;
+    background-color: blueviolet;
 }

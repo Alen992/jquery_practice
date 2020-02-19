@@ -74,4 +74,8 @@ $(document).ready(function () {
     $('.slideBtn--toggle').click(function() {
         $('.div1').slideToggle(2000);
     })
+
+    $(function() {
+        $('.drag').draggable();
+    });
 }) 
