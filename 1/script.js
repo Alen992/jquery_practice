@@ -78,4 +78,16 @@ $(document).ready(function () {
     $(function() {
         $('.drag').draggable();
     });
+
+    $(function() {
+        $('.img1drop').draggable();
+        $('.drop').droppable({
+            drop: function(event, ui) {
+                $( this)
+                .addClass('ui-state-hightlight')
+                .find('p')
+                .html('Dropped!');
+             }
+        })
+    })
 }) 
