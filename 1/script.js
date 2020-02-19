@@ -92,4 +92,10 @@ $(document).ready(function () {
     })
 
     $('.datepick').datepicker();
+    const btns = $('.butn');
+    console.log($('.butn'));
+    for (let index = 0; index < btns.length; index++) {
+        btns[index].classList.add('reddy');
+        
+    }
 }) 
