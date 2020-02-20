@@ -7,6 +7,12 @@ $(function() {
 
   // $('<h4>Peter Somehoff</h4>').prependTo('#content');
 
-  $('.red-box').after('<div class="red-box">Another Red</div>');
-  $('.green-box').before('<div class="green-box">Another green</div>');
+  // $('.red-box').after('<div class="red-box">Another Red</div>');
+  // $('.green-box').before('<div class="green-box">Another green</div>');
+
+  // $('.blue-box').before(function() {
+  //   return '<div class="blue-box">Blue 2</div>'
+  // })
+
+  $('.blue-box').before($('.red-box'));
 });
