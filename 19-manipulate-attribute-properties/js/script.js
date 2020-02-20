@@ -29,6 +29,10 @@ $(function() {
   // console.log(checkbox.attr('checked'));
 
   const textInput = $('input:text');
+  textInput.val('Peter Somerhoff')
   console.log(textInput.val());
+   
+  const rangeValue = $('input[type="range"]');
+  console.log(rangeValue.val());
   
 });
