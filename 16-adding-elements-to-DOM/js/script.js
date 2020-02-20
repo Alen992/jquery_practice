@@ -14,5 +14,11 @@ $(function() {
   //   return '<div class="blue-box">Blue 2</div>'
   // })
 
-  $('.blue-box').before($('.red-box'));
+  // $('.blue-box').before($('.red-box'));
+  // $('p').before($('#list'));
+
+  //challenge
+  console.log($('.box'));
+  
+  
 });
