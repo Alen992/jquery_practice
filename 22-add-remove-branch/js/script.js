@@ -1,25 +1,18 @@
 $(function() {
-  $('.gallery').css('display', 'none'); // .hide()
-
-  var redBox = $('.red-box');
-  console.log(redBox.css('width'));
-  console.log(redBox.width());
-
-  redBox.css('background-color', 'orange');
-  $('p').css('font-size', '18px');
-  console.log($('p').css('font-size'));
+  // $('a').addClass('fancy-link');
+  // $('p:first').addClass('large emphasize');
   
-  redBox.css('width', '+=20px')
+  // $('li li').addClass(function(index) {
+  //   $(this).addClass('item-' + index);
+  // })
 
-  var properties = $('p').css(['font-size', 'line-height', 'color']);
-console.log(properties);
-console.log(properties['font-size']);
+  // $('div').addClass(function(index, currentClass) {
+  //   if (currentClass === 'dummy') {
+  //     return 'red-box';
+  //   }
+  // })
 
-// redBox.css('user-select', 'none');
-// console.log(redBox.css('user-select'));
-
-redBox.css('user-select', function() {
-  return 'none';
-})
+  // $('.red-box').removeClass('red-box').addClass('blue-box');
+  $('.dummy').removeClass('dummy').addClass('green-box');
 
 }); 
