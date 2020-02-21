@@ -1,9 +1,11 @@
 $(function() {
-  $('#btn-click').click(function() {
-    alert('Button was clicked.');
-  });
+  // :hover
+  $('#btn-hover').hover(function() {
+    alert('button is hovered!');
+  })
 
-  $('.red-box').click(function() {
-    $('.red-box').fadeTo(2000, .15);
+  //mini challenge
+  $('.green-box').hover(function() {
+    $(this).text('I was hovered!');
   });
 }); 
