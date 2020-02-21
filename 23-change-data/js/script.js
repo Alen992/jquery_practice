@@ -7,14 +7,15 @@ $(function() {
   ];
   gallery.data('availableImages', images);
   console.log(gallery.data('availableImages'));
+
   gallery.data('name', 'The Awesome Gallery');
+  console.log(gallery.data());
 
-// console.log(gallery.data());
-// gallery.removeData('name');
-// console.log(gallery.data('name'));
+  gallery.removeData('name');
+  console.log(gallery.data('name'));
 
-// var firstPar = $('p:first');
-// console.log(firstPar.data('mydata'));
+  var firstPar = $('p:first');
+  console.log(firstPar.data('mydata'));
 
   
 }); 
