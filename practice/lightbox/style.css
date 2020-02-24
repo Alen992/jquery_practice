@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  /* background-color: lightgreen; */
+}
+
+h1 {
+  padding-top: 30px;
+  color: peru;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.gallery__img {
+  width: 24%;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.2s;
+}
+
+.arrow:hover {
+  background-color: #666;
+}
+
+.arrow__prev {
+  left: 0;
+}
+
+.arrow__next {
+  right: 0;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+}
+
+.lightbox {
+  position: fixed;
+  display: none;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox__image {
+  width: 60%;
+  z-index: 10;
+}
+
+.lightbox__content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(199, 206, 208, 0.5);
+  z-index: -1;
+}

@@ -11,6 +11,6 @@ $(function() {
     domain = userdata.domain || 'example.com';
 
     alert(' Welcome back ' + username + ' from ' + domain + '!');
-  }1
+  }
 }); 
 
