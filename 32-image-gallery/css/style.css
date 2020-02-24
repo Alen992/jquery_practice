@@ -8,7 +8,16 @@
 
 html {
   box-sizing: border-box;
+  min-height: 100%;
+  background-color: #0769ad;
+  box-shadow: 0 0 8px 4px #06599d inset; 
 }
+
+body {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+ }
+
 
 .lightbox {
   position: fixed;
@@ -22,7 +31,9 @@ html {
   color: #000000;
   background-color: rgba(200, 100, 0, 0.9);
   text-align: center;
-  text-shadow: #333 0 1px 0; }
+  text-shadow: #333 0 1px 0; 
+  user-select: none;
+}
 
 .red-box {
   float: left;
@@ -89,15 +100,6 @@ input[type="submit"] {
   input[type="submit"]:hover {
     background-color: #f4f4f4;
     box-shadow: 0 0 1px 0 #ccc; }
-
-html {
-  min-height: 100%;
-  background-color: #0769ad;
-  box-shadow: 0 0 8px 4px #06599d inset; }
-
-body {
-  font-size: 16px;
-  font-family: "Trebuchet MS", Verdana, Arial, sans-serif; }
 
 .clear {
   clear: both; }
