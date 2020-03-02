@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  // $('#form').submit(function() {  
-    
+  // $('#form').submit(function() {
+
   //   if ( $('.input').hasClass('activeForm')) {
   //     if($('.input').val().trim() == '') {
   //       $('.input').removeClass('activeForm');
@@ -11,22 +11,17 @@ $(document).ready(function() {
   //   } else {
   //     $('.input').addClass('activeForm');
   //   }
-
-    
   // })
-
-
-
+  
   $('#form').submit(function() {
-    if($('.input').hasClass('activeForm')) {
-      if ($.trim($('.input').val()) === '' ) {
+    if ($('.input').hasClass('activeForm')) {
+      if ($.trim($('.input').val()) === '') {
         $('.input').removeClass('activeForm');
-          return false;
-      } 
+        return false;
+      }
     } else {
       $('.input').addClass('activeForm');
       return false;
     }
-});
-  
+  });
 });
