@@ -1,49 +1,57 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    text-align: center;
-    background-color: #b5f2e7;
+  text-align: center;
+  background-color: #b5f2e7;
 }
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .heading {
-    margin-top: 40px;
-    font-size: 40px;
-    margin-bottom: 30px;
+  margin-top: 40px;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .slides {
-    width: 60%;
-    margin: 0 auto;
+  width: 60%;
+  margin: 0 auto;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 .form {
-    display: flex;
+  display: flex;
 }
 
 .btn {
-    padding: 5px 10px;
+  padding: 5px 10px;
 }
 
 .input {
-margin-right: 5px;
-transform: scaleX(0);
-transition:  all .3s;
+  margin-right: 5px;
+  transition: all 0.3s;
+}
+
+.input {
+    width: 0;
+    border: none;
+}
+
+.activeForm {
+    width: 200px;
 }
