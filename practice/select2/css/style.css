@@ -1,0 +1,11 @@
+.select2-results__option {
+    color: red;
+}
+
+.select2-results__option:hover {
+   background-color: #666;
+}
+
+.select2-results__option--highlighted {
+    background-color: #666 !important ;
+}
